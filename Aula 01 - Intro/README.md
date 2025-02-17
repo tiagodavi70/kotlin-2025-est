@@ -7,7 +7,7 @@
 1. Escreva um programa que receba um número e verifique se é divísivel por 6.
 1. Escreva um programa que receba a idade de um nadador e mostre na tela a sua categoria seguindo as regras:
 
-| Caegoria   | Idade |
+| Categoria   | Idade |
 |------------| --- |
 | Infantil A | 5 - 7 anos |
 | Infantil B | 8 - 10 anos |
@@ -42,6 +42,48 @@
 1. Um marciano chegou a uma floresta e se escondeu atrás de uma das 100 árvores quando viu um caçador. O caçador só tinha cinco balas em sua
        espingarda. Cada vez que ele atirava, e não acertava, é claro, o marciano
        dizia: estou mais à direita ou estou mais à esquerda. Se o caçador não
-       conseguir acertar o marciano, ele será levado para Marte. Escreva um script para este
+       conseguir acertar o marciano, ele será levado para Marte. Escreva um programa para este
        jogo, com dois jogadores, onde um escolhe a árvore em que o marciano irá
        se esconder, e o outro tenta acertar.
+
+## Arrays e listas
+
+1. Escreva um programa que crie um vetor com 10 posições e receba seus valores do usuário. Ao final deverá mostrar somente os valores acima da média.
+
+1. Escreva uma função que dado um valor `n` crie um vetor com `n` posições aleatórias.
+
+1. Escreva um programa que crie um vetor com 20 valores inteiros aleatórios (entre 0 e 999).
+
+1. Escreva um programa que dado dois vetores indique os elementos que estão presentes nos dois vetores.
+
+1. Escreva uma função que dado um vetor calcule seu somatório e média.
+
+1. Escreva um programa que receba um valor `n` de altura e desenhe um triângulo dessa altura na tela
+
+```
+Altura: 3
+  *
+ ***
+*****
+Altura: 4
+   *
+  ***
+ *****
+*******
+```
+
+7. Escreva um programa quer faça o controle de estoque de uma loja. Em um menu deve ter as opções:
+    * cadastrar produto
+    * editar produto
+    * vender pruduto
+    * gerar relatório
+
+   Na opção de cadastro o usuário deve entrar com:
+    * nome do produto
+    * preço
+    * tipo
+
+   Para cada produto cadastrado deve ser gerado um código.  
+   Na opção de editar deve permitir atualização do nome do produto.  
+   Na opção vender produto deve registrar uma venda do produto.  
+   E na opção gerar relatório deve mostrar o valor total ganho e a média por produto.
