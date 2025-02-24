@@ -42,8 +42,52 @@ fun main() {
                 precos.add(readln().toDouble())
                 codigos.add(codigos.size+1)
             }
+            2 -> {
+                mostrarProdutos(codigos, nomes, precos, tipos)
+                println()
+                print("Entra com o codigo para mudar o nome: ")
+                val codigo = readln().toInt()
+                print("Entra com o novo nome: ")
+                nomes[codigos.indexOf(codigo)] = readln()
+            }
+            3 -> {
+                mostrarProdutos(codigos, nomes, precos, tipos)
+                println()
+                print("Entra com o codigo para vender o produto: ")
+                val codigo = readln().toInt()
+                vendas.add(codigos.indexOf(codigo))
+            }
+            4 -> {
+                // Total ganho
+                var total: Double = 0.0
+                for (venda in vendas) {
+                    total += precos[codigos.indexOf(venda)]
+                }
+                println("Total ganho: $total")
+
+                // Por produto - o mesmo de cima mas para cada produto
+                for (codigo in codigos) {
+                    var parcial: Double = 0.0
+                    var cont: Int = 0
+                    for (venda in vendas) {
+                        if (venda == codigo){
+                            parcial += precos[codigos.indexOf(venda)]
+                            cont++
+                        }
+                    }
+                    val nome = nomes[codigos.indexOf(codigo)]
+                    println("Média por produto $nome: ${parcial/cont}")
+                }
+            }
         }
-        // TODO: Continuar em casa (Vale pra todos, e mais ainda pro professor)
+
     }
 
+
+}
+fun mostrarProdutos(codigos: List<Int>, nomes: List<String>,
+                     precos: List<Double>, tipos: List<String> ) {
+    for (i in 0..codigos.size-1) {
+        println("${codigos[i]} - ${nomes[i]} | ${precos[i]} | $tipos[i]")
+    }
 }
