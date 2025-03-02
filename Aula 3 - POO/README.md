@@ -28,3 +28,11 @@ Escreva um programa em Kotlin quer faça o controle de estoque de uma loja. Em u
    Na opção de editar deve permitir atualização do nome do produto.
    Na opção vender produto deve registrar uma venda do produto.
    E na opção gerar relatório deve mostrar o valor total ganho e o valor total por produto.
+
+5. Crie classes `Pedido` e `Item`, com dois atributos pelo menos cada uma. O pedido deve conter vários itens, e deve calcular o valor total. Teste criando um pedido com diferentes itens. Adicione um atributo `imposto` no item e um método para calcular imposto.
+
+7. Crie uma classe `Contato` com atributos `nome`, `telefone` e `email`. Permita adicionar, remover e listar contatos. Simule um pequeno sistema de agenda. A agenda deve ter um uma busca por qualquer campo.
+
+8. Crie uma classe `Agenda` baseado no sistema anterior, uma agenda tem vários contatos. Crie uma função que dado duas agenda compare os contatos entre si e retorne uma agenda com todos os contatos de ambas sem repetição.
+
+9. Crie uma classe `ContaBancaria` com os atributos titular, saldo e numero_conta. Adicione métodos para depositar, levantar e exibir saldo. Teste criando algumas contas e realize operações para essa várias contas.
