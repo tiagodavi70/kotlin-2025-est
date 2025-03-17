@@ -35,4 +35,4 @@ Escreva um programa em Kotlin quer faça o controle de estoque de uma loja. Em u
 
 8. Crie uma classe `Agenda` baseado no sistema anterior, uma agenda tem vários contatos. Crie uma função que dado duas agenda compare os contatos entre si e retorne uma agenda com todos os contatos de ambas sem repetição.
 
-9. Crie uma classe `ContaBancaria` com os atributos titular, saldo e numero_conta. Adicione métodos para depositar, levantar e exibir saldo. Teste criando algumas contas e realize operações para essa várias contas.
+9. Crie uma classe `ContaBancaria` com os atributos `titular`, `saldo` e `numero_conta`. Adicione métodos para depositar, levantar e exibir saldo. Teste criando algumas contas e realize operações para essa várias contas.
