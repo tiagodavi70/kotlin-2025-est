@@ -216,26 +216,22 @@ class Carro {
     }
 }
 ```
-
 * Classe abstrata
 ``` kotlin
 abstract class Forma {
     abstract fun area(): Double
 }
 ``` 
-
 * Classe de dados
 ``` kotlin
 data class Dispositivo(val nome: String, val preco: Double)
 ``` 
-
 * Classes enum
 ``` kotlin
 enum class Cor(rgb:String) {
     Vermelho("FF0000"), Verde("00FF00"), Azul("0000FF")
 }
 ``` 
-
 * Criando Objetos
 ``` kotlin
 
@@ -245,6 +241,25 @@ val pessoa1 = Pessoa("Alexandre",  33)
 val carro1 = Carro("aaa", "bbb")
 val carro2 = Carro("ccc", "ddd")
 ```
+<details>
+  <summary>Java e Python</summary>
+``` java
+``` 
+``` java
+``` 
+``` java
+``` 
+``` java
+``` 
+``` java
+``` 
+``` java
+``` 
+``` java
+``` 
+``` java
+``` 
+</details>
 
 ### Herança
 ``` kotlin
@@ -313,6 +328,7 @@ class Bicicleta(override val velocidadeMaxima: Double) : Direcao {
 }
 ```
 
+* Instanciando
 ``` kotlin
 val auto = Automovel(150.0)
 val bicicleta = Bicicleta(80.0)
