@@ -217,6 +217,25 @@ class Carro {
 }
 ```
 
+* Classe abstrata
+``` kotlin
+abstract class Forma {
+    abstract fun area(): Double
+}
+``` 
+
+* Classe de dados
+``` kotlin
+data class Dispositivo(val nome: String, val preco: Double)
+``` 
+
+* Classes enum
+``` kotlin
+enum class Cor(rgb:String) {
+    Vermelho("FF0000"), Verde("00FF00"), Azul("0000FF")
+}
+``` 
+
 * Criando Objetos
 ``` kotlin
 
@@ -229,7 +248,7 @@ val carro2 = Carro("ccc", "ddd")
 
 ### Herança
 ``` kotlin
-open class Forma {
+abstract class Forma {
 
     open fun area(): Double {
         return 0.0
@@ -270,3 +289,12 @@ class Gato(nome: String) : Animal(nome) {
     }
 }
 ```
+
+## Interfaces
+``` kotlin
+interface Direcao {
+    val velocidadeMaxima: Double
+    fun fazerCurva(angulos: Double)
+}
+```
+
