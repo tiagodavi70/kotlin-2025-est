@@ -1,5 +1,6 @@
 # Programação Orientada a Objetos
 
+[Repositório aula 9](https://github.com/tiagodavi70/servidorEST)
 
 ## Referência da linguagem Kotlin
 
@@ -241,25 +242,6 @@ val pessoa1 = Pessoa("Alexandre",  33)
 val carro1 = Carro("aaa", "bbb")
 val carro2 = Carro("ccc", "ddd")
 ```
-<details>
-  <summary>Java e Python</summary>
-``` java
-``` 
-``` java
-``` 
-``` java
-``` 
-``` java
-``` 
-``` java
-``` 
-``` java
-``` 
-``` java
-``` 
-``` java
-``` 
-</details>
 
 ### Herança
 ``` kotlin
